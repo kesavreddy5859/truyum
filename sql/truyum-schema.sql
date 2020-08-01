@@ -35,5 +35,3 @@ CREATE TABLE IF NOT EXISTS cart(
     ON UPDATE NO ACTION)
 );
 
-
-insert into
