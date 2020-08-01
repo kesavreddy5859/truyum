@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+<link rel="stylesheet" href="style/menu-item-list-admin.css">
+<link rel="stylesheet" href="style/edit-menu-items.css">
+    
+    <title>menu-item-list-admin</title>
+</head>
+<body>
+    <br>
+    <br>
+
+    
+<div class="container1">
+
+<div class="navbar">
+    <div class="effect">
+        <h3>TruYum</h3>
+
+    </div>
+
+<div class="left">
+<img src="images/icon.png"></div>
+
+<div class="right"><a href="menu-item-list-admin.html"><h3>Menu</h3></a></div>
+
+</div>
+<br>
+
+<div class="menu">
+<br>
+<div id="menu">
+<h3>Edit Menu Items</h3>
+</div>
+
+</div>
+<div class="container">
+<div class="cont">
+    <form>
+    <label for="Name" >Name</label><br>
+    <input type="text" id="name" value="SandWich"name="Name">
+  </form>
+
+
+  <div class="cont2">
+  <form>
+   
+    <label for="price"></label>Price (Rs.)</label>
+    
+    <label for="fname"style="margin-left: 10px;">Active</label>
+    <label for="fname"style="margin-left: 10px;">Date of Launch</label>
+    <label for="fname"style="margin-left: 10px;">Category</label>
+    <br>
+    <input type="text" id="price" name="Price" style="width:50px; float: left;margin-right: 10px;">
+    
+    <input type="radio" name="Active" style=" margin-top: 5px;  float: left;">
+    <p style="width: 30px;float: left;">Yes</p>
+    <input type="radio" name="Active" style=" margin-top: 5px; float: left;">
+    <p  style="width: 30px; float: left;">No</p>  
+
+
+</br>
+    <input type="date" id="date" name="Date" style="width:100px;">
+<form>
+    <select id="category" name="Main Course">
+        
+    <option value="au">Main Course</option>
+    <option value="au">Starters</option>
+    <option value="ca">Desserts</option>
+    <option value="usa">Drinks</option>
+    </select>
+
+  
+  <br>
+  <br>
+  <input type="checkbox"> Free Delivery<br>
+  <button type="button" onclick="valid()" class="btn btn-success"style="margin-top:5px; padding:10px;">Submit</button>
+</form>
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
